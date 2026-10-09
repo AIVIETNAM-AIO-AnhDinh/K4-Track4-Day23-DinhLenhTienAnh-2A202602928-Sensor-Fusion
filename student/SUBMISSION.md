@@ -131,11 +131,11 @@ Ghi rõ, kể cả khi không dùng ("Không dùng AI"). Xem [RULES.md](../RULES
 
 ## Checklist nộp
 
-- [ ] **Part E–H** trong `workspace/` đã implement; `pytest student/tests -q` không còn `failed`/`xfailed`
-- [ ] Part A–D: không bắt buộc sửa (hoặc ghi chú nếu bạn đã sửa)
-- [ ] Lần chạy chấm điểm: `--fusion compare --seed 0`, `frame_start: 0`, `frame_end: 198`
-- [ ] Đã commit `student/artifacts/metrics*.json` và `student/artifacts/grade_run*.log` (không sửa tay)
-- [ ] Đã điền đủ file này, gồm khai báo AI
-- [ ] Không commit dữ liệu Waymo, weights, `paths.yaml`, API key
-- [ ] `python tools/check_submission.py` báo `KẾT QUẢ: SẴN SÀNG NỘP`
-- [ ] Đã push và nộp link repo + commit hash trên LMS ([hướng dẫn nộp](../SUBMISSION.md))
+- [x] **Part E–H** trong `workspace/` đã implement; `pytest student/tests -q` không còn `failed`/`xfailed`
+- [x] Part A–D: không bắt buộc sửa (hoặc ghi chú nếu bạn đã sửa)
+- [x] Lần chạy chấm điểm: `--fusion compare --seed 0`, `frame_start: 0`, `frame_end: 198`
+- [x] Đã commit `student/artifacts/metrics*.json` và `student/artifacts/grade_run*.log` (không sửa tay)
+- [x] Đã điền đủ file này, gồm khai báo AI
+- [x] Không commit dữ liệu Waymo, weights, `paths.yaml`, API key
+- [x] `python tools/check_submission.py` báo `KẾT QUẢ: SẴN SÀNG NỘP`
+- [x] Đã push và nộp link repo + commit hash trên LMS ([hướng dẫn nộp](../SUBMISSION.md))
